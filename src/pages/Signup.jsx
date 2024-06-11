@@ -15,8 +15,13 @@ const Signup = () => {
             <section className='section-padding'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-xl-6 mx-auto">
-                            <div className="card border border-primary p-5">
+                        <div className="col-12 col-xl-6 my-auto">
+                            <div className='img-area'>
+                                <img src="assets/images/signup.svg" alt="" />
+                            </div>
+                        </div>
+                        <div className="col-12 col-xl-6">
+                            <div className="card pt-5 pb-5 ps-4 pe-4 ps-sm-5 pe-sm-5 custom-card">
                                 <h4 className='text-primary text-center'><b>CREATE YOUR ACCOUNT</b></h4>
 
                                 <form action="" className='mt-5'>
@@ -56,7 +61,7 @@ const Signup = () => {
                                     </div>
 
                                     <div className="text-center">
-                                        <button className='btn btn-primary btn-lg text-uppercase'>Register</button>
+                                        <button className='btn btn-primary btn-lg text-uppercase btn-font'>Register</button>
                                     </div>
                                 </form>
                             </div>

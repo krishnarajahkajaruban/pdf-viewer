@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e9eff8 !important;
 }
 
 code {
@@ -13,7 +14,7 @@ code {
 }
 
 .section-padding {
-  padding: 100px 0;
+  padding: 80px 0 !important;
 }
 
 .toggle-pwd {
@@ -28,4 +29,248 @@ code {
 
 .nav-link.active {
   color: #0d6efd !important;
+}
+
+.upload-file-area {
+  width: 100%;
+}
+
+.upload-file-area input {
+  display: none;
+}
+
+.upload-file-area {
+  border: 2px dashed #0d6efd;
+  background-color: #e4edfc;
+  border-radius: 12px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.upload-area {
+  display: flex;
+  gap: 20PX;
+  align-items: center;
+}
+
+.upload-area i {
+  font-size: 40px;
+  color: #99afd2;
+}
+
+.upload-area span {
+  color: #99afd2;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.img-area {
+  position: relative;
+}
+
+.img-area img {
+  display: block;
+  max-width: 70%;
+  margin: auto;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.custom-card {
+  border-radius: 20px !important;
+  border: none !important;
+  background: #ffffff !important;
+  box-shadow: 20px 20px 60px #dbe4ef,
+    -20px -20px 60px #ffffff;
+}
+
+.uploaded-area {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.uploaded-area img {
+  width: 60px;
+  filter: drop-shadow(0px 5px 20px #fff);
+}
+
+.uploaded-area .filename {
+  color: #5e759c;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.uploaded-area .filesize {
+  color: #9da9bc;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.btn-font {
+  font-size: 18px !important;
+}
+
+.form-control {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.input-group-text {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.input-group {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px #99afd23c;
+}
+
+.swal2-popup {
+  border-radius: 12px;
+}
+
+.swal2-confirm {
+  border-radius: 8px !important;
+  background-color: #0d6efd !important;
+}
+
+.swal2-confirm:focus {
+  box-shadow: 0px 0px 0px 4px #0d6dfd54 !important;
+}
+
+.swal2-title {
+  font-size: 22px !important;
+}
+
+.swal2-html-container {
+  font-size: 16px !important;
+}
+
+.file-view-area {
+  background-color: #e5edfa !important;
+  border: 2px solid #FFF !important;
+}
+
+.file-item {
+  position: relative;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(150deg, rgba(255, 255, 255, 1) 0%, rgb(235, 241, 251) 100%);
+  box-shadow: 0px 10px 20px #00338024;
+  padding: 20px 40px 20px 20px;
+  transition: ease 0.5s;
+}
+
+
+
+.file-item img {
+  width: 60px;
+  object-fit: contain;
+  display: block;
+  transition: ease 0.5s;
+}
+
+.file-item:hover img {
+  transform: scale(1.04);
+}
+
+.file-detail {
+  overflow: hidden;
+}
+
+.file-detail .file_name {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+}
+
+.file-detail .upload_date,
+.file-detail .file_size {
+  color: #aeaeae;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.file-action-button {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  color: #787878;
+  transition: ease 0.5s;
+  font-size: 20px;
+}
+
+.file-action-button:hover {
+  color: #000 !important;
+}
+
+.file-action-button:focus {
+  outline: none;
+  border: none;
+}
+
+.file-action-menu {
+  border: none !important;
+  box-shadow: 0px 5px 15px #0033801c;
+  background-color: #ffffff6e !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 6px !important;
+  border-radius: 10px !important;
+}
+
+.file-action-menu .dropdown-item {
+  border-radius: 5px;
+}
+
+.file-action-menu .dropdown-item:hover {
+  background-color: #dbe5f5 !important;
+}
+
+.file-action-menu a {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.files-show-area {
+  row-gap: 25px !important;
+}
+
+.file-view-area .card-footer {
+  background-color: #dde5f3;
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0px 0px 15px #FFF;
+}
+
+.file-count h6,
+.file-count p {
+  font-size: 14px;
+}
+
+.file-view-area .card-footer .page-link {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  padding: 8px 14px !important;
+}
+
+.page-header-area{
+  margin-bottom: 20px;
 }

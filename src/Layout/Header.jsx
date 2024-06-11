@@ -19,7 +19,7 @@ const Header = () => {
                             </li>
                         </ul>
 
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav ">
                             <li class="nav-item">
                                 <a class="btn btn-outline-primary me-3" aria-current="page" href="/sign-up">Signup</a>
                             </li>
